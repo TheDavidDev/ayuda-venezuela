@@ -32,7 +32,7 @@
           <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
           <ul>
             <li><strong>Protección Civil:</strong> 0800-7248451</li>
-            <li><strong>Bomberos:</strong> 0212-5422222</li>
+            <li><strong>Bomberos:</strong> 0212-5417133 Y 0212-577-9209911</li>
             <li><strong>Cruz Roja:</strong> 0212-5714522</li>
           </ul>
         </div>
