@@ -32,7 +32,7 @@
           <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
           <ul>
             <li><strong>Protección Civil:</strong> 0800-7248451</li>
-            <li><strong>Bomberos:</strong> 0212-5417133 Y 0212-577-9209911</li>
+            <li><strong>Bomberos:</strong> 0212-5417133 & 0212-577-9209911</li> <!-- Corregir esto -->
             <li><strong>Cruz Roja:</strong> 0212-5714522</li>
           </ul>
         </div>
@@ -78,14 +78,28 @@
           <h2 class="titulo-seccion borde-amarillo">📂 Carpetas Oficiales de Ingresos Hospitalarios</h2>
           <p class="instrucciones">
             Accede de forma directa a las bases de datos originales compartidas por los centros médicos. 
-            Revisa los listados organizados en la nube en tiempo real [13:02].
+            Revisa los listados organizados en la nube en tiempo real.
           </p>
           <div class="zona-enlaces">
             <a v-for="link in recursos.enlacesDrive" :key="link.id" :href="link.url" target="_blank" class="btn-drive-oficial">
               {{ link.titulo }}
             </a>
+        </div> <!-- AQUÍ TERMINA ZONA-ENLACES -->
+
+          <!-- Descargar archivo: -->
+          <div class="zona-descargas-locales" style="margin-top: 15px; border-top: 1px dashed #e2e8f0; padding-top: 15px;">
+            <p class="instrucciones" style="margin-bottom: 8px;">📥 Documentos recibidos por canales comunitarios (Descarga directa):</p>
+            <a v-for="descarga in recursos.descargasLocales" :key="descarga.id" :href="descarga.url" download class="btn-descarga-local">
+              {{ descarga.titulo }}
+            </a>
           </div>
-        </div>
+
+        </div> <!-- AQUÍ CIERRA LA TARJETA PRINCIPAL -->
+
+
+
+
+
 
         <!-- Bloque 2: Galería de Fotos de Sobrevivientes (Campo de Golf / Caribe) -->
         <div class="tarjeta">
@@ -133,7 +147,7 @@
             <div v-for="funda in recursos.fundaciones" :key="funda.id" class="item-medico border-funda">
               <div class="medico-header">
                 <strong>🏛️ {{ funda.nombre }}</strong>
-                <a :target="_blank" :href="funda.enlace" class="link-externo">Visitar Sitio ➡️</a>
+                <a :target="_blank" :href="funda.enlace" class="link-externo">Donar ➡️</a>
               </div>
               <p class="desc-funda">{{ funda.descripcion }}</p>
             </div>
@@ -593,6 +607,30 @@ li {
 .chat-link:hover {
   text-decoration: underline;
   color: #166534;
+}
+
+/* ESTILOS PRECISOS PARA DESCARGAS LOCALES */
+.zona-descargas-locales {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-descarga-local {
+  display: block;
+  text-align: center;
+  background-color: #1e3a8a; /* Azul Marino Institucional */
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 13.5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-descarga-local:hover {
+  background-color: #1d4ed8; /* Azul más brillante al pasar el ratón */
 }
 
 

@@ -3,14 +3,18 @@
     {
       "id": 1,
       "titulo": "📂 Ver Carpeta Principal de Listados en Google Drive",
-      "url": "https://google.com"
-    },
+      "url": "https://drive.google.com/drive/folders/1o36ifaRz45kAs5rKzci49aD0mP5JB_YI"
+    
+    }
+    ],
+    "descargasLocales": [
     {
-      "id": 2,
-      "titulo": "📱 Acceso Celular Optimizado - Listas de Hospitales",
-      "url": "https://google.com"
+      "id": 1,
+      "titulo": "📥 Descargar Consolidado de Ingresos Hospitalarios (PDF)",
+      "url": "/archivos/Ingresos_por_sismo_en_Hospitales_consolidado_25jun26.pdf"
     }
   ],
+
   "gruposWhatsapp": [
     { "id": 1, "nombre": "RESIDENCIA VALLARTA", "url": "https://chat.whatsapp.com/BZY0yAFm6dY2lOK86xnJws" },
     { "id": 2, "nombre": "RESIDENCIA AURO", "url": "https://chat.whatsapp.com/ILeVat1CmWkB7T6W7KtfFz?mode=gi_t" },
@@ -36,21 +40,35 @@
   ],
   "fotosSobrevivientes": [
     { "id": 1, "titulo": "Lista 1: Campo de Golf / Caribe (La Guaira)", "url": "/listas-mano/foto1.jpg" },
-    { "id": 2, "titulo": "Lista 2: Sobrevivientes Refugio", "url": "/listas-mano/foto2.jpg" },
-    { "id": 3, "titulo": "Lista 3: Sobrevivientes Refugio", "url": "/listas-mano/foto3.jpg" },
-    { "id": 4, "titulo": "Lista 4: Sobrevivientes Refugio", "url": "/listas-mano/foto4.jpg" },
-    { "id": 5, "titulo": "Lista 5: Sobrevivientes Refugio", "url": "/listas-mano/foto5.jpg" },
-    { "id": 6, "titulo": "Lista 6: Sobrevivientes Refugio", "url": "/listas-mano/foto6.jpg" },
-    { "id": 7, "titulo": "Lista 7: Sobrevivientes Refugio", "url": "/listas-mano/foto7.jpg" }
+    { "id": 2, "titulo": "Lista 2: Campo de Golf", "url": "/listas-mano/foto2.jpg" },
+    { "id": 3, "titulo": "Lista 3: Campo de Golf", "url": "/listas-mano/foto3.jpg" },
+    { "id": 4, "titulo": "Lista 4: Campo de Golf", "url": "/listas-mano/foto4.jpg" },
+    { "id": 5, "titulo": "Lista 5: Campo de Golf", "url": "/listas-mano/foto5.jpg" },
+    { "id": 6, "titulo": "Lista 6: Campo de Golf", "url": "/listas-mano/foto6.jpg" },
+    { "id": 7, "titulo": "Lista 7: Campo de Golf", "url": "/listas-mano/foto7.jpg" },
+    { "id": 8, "titulo": "Lista 8: Campo de Golf", "url": "/listas-mano/foto8.jpg" },
+    { "id": 9, "titulo": "Lista 9: Campo de Golf", "url": "/listas-mano/foto9.jpg" },
+    { "id": 10, "titulo": "Lista 10: Campo de Golf", "url": "/listas-mano/foto10.jpg" },
+    { "id": 10, "titulo": "Lista 11: Campo de Golf", "url": "/listas-mano/foto11.jpg" }
   ],
   "medicos": [
     { "id": 1, "nombre": "Dr. Jesús Suárez (Médico Cirujano)", "especialidad": "🩺 Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +49 1522 9451064 | Instagram: @latinoembata" },
     { "id": 2, "nombre": "Dr. Teosmar Chamorro", "especialidad": "🩺 Orientación para situaciones leves en casa, heridas leves, crisis de ansiedad y síntomas gastrointestinales.", "contacto": "WhatsApp: +49 176 20195194 | Instagram: @teosmarchamorro" }
   ],
   "fundaciones": [
-    { "id": 1, "nombre": "AVAS - Asociación Venezolana-Alemana de Socorro", "descripcion": "Canalización directa de insumos médicos. Compran materiales en el terreno. Cuentas: Mercantil Bs Cuenta 0105-0641-71-1641000473 (RIF: J-00117666-7) / Pax Bank Köln Euros IBAN: DE21 3706 0193 0057 2440 03.", "enlace": "mailto:avasvenezuela@gmail.com" },
-    { "id": 2, "nombre": "Fondo de Alivio de Emergencia - GoFundMe", "descripcion": "Campaña internacional activa de recaudación de fondos para compra de insumos de primera necesidad y medicinas para los damnificados del terremoto.", "enlace": "https://gofundme.com" }
-  ],
+     {
+      "id": 1,
+      "nombre": "Vente Conmigo (Human Capital for the World)",
+      "descripcion": "Organización internacional 501(c)(4) dedicada a la defensa de los derechos fundamentales y la movilización de recursos. Sirve como plataforma global de soporte humanitario para la canalización directa de fondos de auxilio de emergencia.",
+      "enlace": "https://venteconmigo.org/donar/"
+    },
+    {
+      "id": 2,
+      "nombre": "Hogar Bambi Venezuela",
+      "descripcion": "Asociación civil sin fines de lucro destinada a la atención integral y protección de niños, niñas y jóvenes vulnerables o privados de su medio familiar en Venezuela. Su prioridad actual es el resguardo y la reinserción en entornos seguros.",
+      "enlace": "https://hogarbambi.org/donar/"
+    }
+      ],
   "plataformas": [
     { "id": 1, "titulo": "Desaparecidos Terremoto Venezuela - Localizador Ciudadano", "autor": "Iniciativa Voluntaria Ciudadana", "descripcion": "Portal interactivo dedicado a reconectar familias. Permite reportar a personas desaparecidas o confirmar sobrevivientes en el padrón.", "enlace": "https://desaparecidosterremotovenezuela.com" },
     { "id": 2, "titulo": "Interp-Aid - Intérpretes Telefónicos", "autor": "Voluntariado Internacional", "descripcion": "Plataforma de inscripción para traductores remotos. Los socorristas extranjeros necesitan apoyo telefónico urgente.", "enlace": "http://lovable.app" },
