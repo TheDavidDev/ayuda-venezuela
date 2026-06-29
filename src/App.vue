@@ -102,27 +102,10 @@
 
 
         <!-- Bloque 2: Galería de Fotos de Sobrevivientes (Campo de Golf / Caribe) -->
-        <div class="tarjeta">
-          <h2 class="titulo-seccion borde-amarillo">📸 Listas Manuscritas de Sobrevivientes (Zonas de Refugio)</h2>
-          <p class="instrucciones">
-            Fotos de los listados tomados a mano en los campamentos de La Guaira. 
-            Toca cualquier miniatura para abrir la imagen original y hacerle zoom con tus dedos para buscar apellidos [13:02].
-          </p>
-          
-          <div class="galeria-listas">
-            <a v-for="foto in recursos.fotosSobrevivientes" :key="foto.id" :href="foto.url" target="_blank" class="tarjeta-foto">
-              <div class="wrapper-imagen">
-                <img 
-                  :src="foto.url" 
-                  @error="corregirExtensionWhatsApp($event, foto)" 
-                  class="img-lista" 
-                  alt="Lista de sobrevivientes"
-                />
-              </div>
-              <div class="foto-titulo">{{ foto.titulo }}</div>
-            </a>
-          </div>
-        </div>
+                <!-- Bloque 2: Galería de Fotos de Sobrevivientes (Componente Modular Separado) -->
+        <gallery :lista-fotos="recursos.fotosSobrevivientes" />
+
+        
 
         <!-- Bloque 3: Red de Apoyo de Médicos Remotos -->
         <div class="tarjeta">
@@ -184,11 +167,14 @@
     </footer>
   </div>
 </template>
+
 <script setup>
 import { ref } from 'vue'
 // Cargamos las dos bases de datos locales externas de tu proyecto
 import centrosAcopio from './acopio.json'
 import datosRecursos from './recursos.json'
+import gallery from './gallery.vue'
+
 
 const recursos = ref(datosRecursos)
 

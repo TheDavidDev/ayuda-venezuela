@@ -39,17 +39,17 @@
     { "id": 21, "nombre": "PERLAMAR", "url": "https://chat.whatsapp.com/LKvlHltCgMk44KV6Lgk5gm?s=cl&p=i&mlu=1" }
   ],
   "fotosSobrevivientes": [
-    { "id": 1, "titulo": "Lista 1: Campo de Golf / Caribe (La Guaira)", "url": "/listas-mano/foto1.jpg" },
-    { "id": 2, "titulo": "Lista 2: Campo de Golf", "url": "/listas-mano/foto2.jpg" },
-    { "id": 3, "titulo": "Lista 3: Campo de Golf", "url": "/listas-mano/foto3.jpg" },
-    { "id": 4, "titulo": "Lista 4: Campo de Golf", "url": "/listas-mano/foto4.jpg" },
-    { "id": 5, "titulo": "Lista 5: Campo de Golf", "url": "/listas-mano/foto5.jpg" },
-    { "id": 6, "titulo": "Lista 6: Campo de Golf", "url": "/listas-mano/foto6.jpg" },
-    { "id": 7, "titulo": "Lista 7: Campo de Golf", "url": "/listas-mano/foto7.jpg" },
-    { "id": 8, "titulo": "Lista 8: Campo de Golf", "url": "/listas-mano/foto8.jpg" },
-    { "id": 9, "titulo": "Lista 9: Campo de Golf", "url": "/listas-mano/foto9.jpg" },
-    { "id": 10, "titulo": "Lista 10: Campo de Golf", "url": "/listas-mano/foto10.jpg" },
-    { "id": 10, "titulo": "Lista 11: Campo de Golf", "url": "/listas-mano/foto11.jpg" }
+    { "id": 1, "titulo": "Lista 1: Campo de Golf / Caribe (La Guaira)", "url": "/listas-mano/foto1.jpeg" },
+    { "id": 2, "titulo": "Lista 2: Campo de Golf", "url": "/listas-mano/foto2.jpeg" },
+    { "id": 3, "titulo": "Lista 3: Campo de Golf", "url": "/listas-mano/foto3.jpeg" },
+    { "id": 4, "titulo": "Lista 4: Campo de Golf", "url": "/listas-mano/foto4.jpeg" },
+    { "id": 5, "titulo": "Lista 5: Campo de Golf", "url": "/listas-mano/foto5.jpeg" },
+    { "id": 6, "titulo": "Lista 6: Campo de Golf", "url": "/listas-mano/foto6.jpeg" },
+    { "id": 7, "titulo": "Lista 7: Campo de Golf", "url": "/listas-mano/foto7.jpeg" },
+    { "id": 8, "titulo": "Lista 8: Campo de Golf", "url": "/listas-mano/foto8.jpeg" },
+    { "id": 9, "titulo": "Lista 9: Campo de Golf", "url": "/listas-mano/foto9.jpeg" },
+    { "id": 10, "titulo": "Lista 10: Campo de Golf", "url": "/listas-mano/foto10.jpeg" },
+    { "id": 10, "titulo": "Lista 11: Campo de Golf", "url": "/listas-mano/foto11.jpeg" }
   ],
   "medicos": [
     { "id": 1, "nombre": "Dr. Jesús Suárez (Médico Cirujano)", "especialidad": "🩺 Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +49 1522 9451064 | Instagram: @latinoembata" },
@@ -71,8 +71,8 @@
       ],
   "plataformas": [
     { "id": 1, "titulo": "Desaparecidos Terremoto Venezuela - Localizador Ciudadano", "autor": "Iniciativa Voluntaria Ciudadana", "descripcion": "Portal interactivo dedicado a reconectar familias. Permite reportar a personas desaparecidas o confirmar sobrevivientes en el padrón.", "enlace": "https://desaparecidosterremotovenezuela.com" },
-    { "id": 2, "titulo": "Interp-Aid - Intérpretes Telefónicos", "autor": "Voluntariado Internacional", "descripcion": "Plataforma de inscripción para traductores remotos. Los socorristas extranjeros necesitan apoyo telefónico urgente.", "enlace": "http://lovable.app" },
-    { "id": 3, "titulo": "Cruz Roja Venezolana - Registro de Voluntarios de Emergencia", "autor": "+C IFRC (Registro No Pertenecientes)", "descripcion": "Formulario oficial de inscripción para quienes deseen apoyar tras el sismo. Se prioriza personal del área de salud y respuesta inmediata en el terreno.", "enlace": "https://ifrc.org" },
+    { "id": 2, "titulo": "Interp-Aid - Intérpretes Telefónicos", "autor": "Voluntariado Internacional", "descripcion": "Plataforma de inscripción para traductores remotos. Los socorristas extranjeros necesitan apoyo telefónico urgente.", "enlace": "http://Interp-aid.lovable.app" },
+    { "id": 3, "titulo": "Cocinando por Venezuela", "autor": "Chef Campus", "descripcion": "Cada día servimos más de 2.000 comidas a las familias afectadas por el terremoto.", "enlace": "https://cocinandoporvenezuela.org/" },
     { "id": 4, "titulo": "BitChat - Mensajería Privada P2P", "autor": "Herramientas de Emergencia", "descripcion": "Aplicación móvil recomendada para comunicación privada cifrada de punto a punto, ideal para mantener la seguridad de tus mensajes.", "enlace": "https://bitchat.im" },
     { "id": 5, "titulo": "Briar / Bridgefy - Redes Mesh por Bluetooth", "autor": "Herramientas de Emergencia", "descripcion": "Aplicaciones recomendadas para chatear sin internet. Permiten enviar mensajes saltando de teléfono a teléfono usando el Bluetooth cuando las antenas telefónicas colapsan.", "enlace": "https://briarproject.org" }
   ]
