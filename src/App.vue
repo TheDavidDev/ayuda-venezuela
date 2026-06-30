@@ -88,10 +88,10 @@
             </a>
         </div> <!-- AQUÍ TERMINA ZONA-ENLACES -->
 
-          <!-- Descargar archivo: -->
+         <!-- Descargar archivo: -->
           <div class="zona-descargas-locales" style="margin-top: 15px; border-top: 1px dashed #e2e8f0; padding-top: 15px;">
-            <p class="instrucciones" style="margin-bottom: 8px;">📥 Documentos recibidos por canales comunitarios (Descarga directa):</p>
-            <a v-for="descarga in recursos.descargasLocales" :key="descarga.id" :href="descarga.url" download class="btn-descarga-local">
+            <p class="instrucciones" style="margin-bottom: 8px;">📋 Informes consolidados recibidos por canales comunitarios:</p>
+            <a v-for="descarga in recursos.descargasLocales" :key="descarga.id" :href="descarga.url" target="_blank" class="btn-descarga-local">
               {{ descarga.titulo }}
             </a>
           </div>
