@@ -9,7 +9,7 @@
       <div class="franja franja-roja"></div>
       <div class="header-contenido">
         <h1>Plasist.org</h1>
-        <p>Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
+        <p>Plataforma de Asistencia Humanitaria Centralizada - Venezuela </p>
       </div>
     </header>
 
