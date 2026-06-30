@@ -1,35 +1,30 @@
 <template>
   <div class="pantalla-inicial">
-    <!-- CAPA DE FONDO CON BLUR Y OPACIDAD -->
+    <!-- CAPA DE FONDO CON BLUR Y OPACIDAD (RESPETA TU RUTA ACTUAL) -->
     <div class="fondo-difuminado"></div>
     
-    <!-- CONTENEDOR CENTRAL DE ALERTA -->
+    <!-- CONTENEDOR CENTRAL TRANSPARENTE / MINIMALISTA -->
     <div class="bloque-bienvenida">
-      <!-- Detalle Tricolor Institucional -->
-      <div class="barra-tricolor">
-        <div class="barra-amarilla"></div>
-        <div class="barra-azul"></div>
-        <div class="barra-roja"></div>
-      </div>
-
       <div class="contenido-bienvenida">
-        <span class="emblema-alerta">🚨 CRISIS HUMANITARIA</span>
-        <h1 class="titulo-bienvenida">PLAsist.org</h1>
+       <!-- <span class="emblema-alerta">🚨 CRISIS HUMANITARIA</span>-->
+        <h1 class="titulo-bienvenida">plasist.org</h1>
         <p class="subtitulo-bienvenida">
-          Plataforma de Asistencia Centralizada para la Coordinación de Auxilio y Localización de Personas tras el Sismo en Venezuela.
+          Plataforma de Asistencia Centralizada
         </p>
 
-        <!-- ZONA DE ACCIÓN: LOS DOS BOTONES -->
-        <div class="botones-bienvenida">
-          <!-- Botón de Donación Directa -->
-          <a href="https://venteconmigo.org/donar/" target="_blank" class="btn-inicial btn-donar-urgente">
-            ❤️ Donar a la Causa
-          </a>
-          
-          <!-- Botón para Entrar al Portal Informativo -->
-          <button @click="emitirEntrada" class="btn-inicial btn-entrar-portal">
-            🔍 Entrar al Portal Informativo
-          </button>
+        <!-- ZONA DE ACCIÓN: BOTONES MÁS CORTOS, MINIMALISTAS Y JUNTOS -->
+        <div class="zona-botones-contenedor">
+          <div class="botones-bienvenida">
+            <!-- Botón de Donación Directa -->
+            <a href="https://venteconmigo.org/donar/" target="_blank" class="btn-inicial btn-donar-urgente">
+              ❤️ Donar
+            </a>
+            
+            <!-- Botón para Entrar al Portal Informativo -->
+            <button @click="emitirEntrada" class="btn-inicial btn-entrar-portal">
+              🔍 Entrar
+            </button>
+          </div>
         </div>
         
         <p class="nota-bienvenida">Toda la información contenida en esta central es de carácter público y voluntario.</p>
@@ -59,126 +54,150 @@ const emitirEntrada = () => {
   align-items: center;
   justify-content: center;
   z-index: 9999; /* Se superpone a absolutamente todo en el portal */
-  padding: 15px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
-/* EFECTO DE FONDO CON FOTO, BLUR Y OPACIDAD */
+/* EFECTO DE FONDO CON TU RUTA FÍSICA Y EXTENSIÓN EXACTA EN MAYÚSCULAS */
 .fondo-difuminado {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/images/fondo.PNG'); /* Apunta directo a tu carpeta public/images/ */
+  background-image: url('/images/fondo.PNG'); /* Mantiene intacto tu archivo local */
   background-size: cover;
   background-position: center;
-  filter: blur(8px) brightness(0.4);
+  filter: blur(5px) brightness(0.35); /* Bajamos el blur para que se aprecie más tu foto de fondo */
   z-index: -1;
 }
 
-/* CAJA DE DIÁLOGO CENTRAL */
+/* CAJA CENTRAL SIN FONDO BLANCO SÓLIDO (DISEÑO TIPO CRISTAL TRASLÚCIDO) 
 .bloque-bienvenida {
-  background: rgba(255, 255, 255, 0.98); /* Fondo casi blanco semi-transparente elegante */
-  max-width: 500px;
+  max-width: 550px;
   width: 100%;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-  animation: entradaSuave 0.4s ease-out;
-}
+  border-radius: 16px;
+  background: rgba(15, 23, 42, .19);  Fondo oscuro traslúcido elegante 
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  animation: entradaSuave 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}*/
 
 @keyframes entradaSuave {
-  from { transform: translateY(20px); opacity: 0; }
+  from { transform: translateY(15px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
 
-/* TRICOLOR DE CABECERA */
-.barra-tricolor { display: flex; height: 6px; width: 100%; }
-.barra-amarilla { background-color: #facc15; flex: 1; }
-.barra-azul { background-color: #1d4ed8; flex: 1; }
-.barra-roja { background-color: #dc2626; flex: 1; }
-
 .contenido-bienvenida {
-  padding: 30px 25px;
+  padding: 40px 30px;
   text-align: center;
 }
-
+/*
 .emblema-alerta {
   display: inline-block;
-  background: #fef2f2;
-  color: #dc2626;
-  font-size: 11px;
+  background: rgba(220, 38, 38, 0.2);
+  color: #fca5a5;
+  font-size: 10.5px;
   font-weight: 800;
-  padding: 4px 10px;
+  padding: 4px 12px;
   border-radius: 20px;
-  border: 1px solid #fee2e2;
-  letter-spacing: 0.5px;
-}
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  letter-spacing: 0.75px;
+}*/
 
+/* TEXTOS ADAPTADOS PARA MÁXIMA LEGIBILIDAD SOBRE EL NUEVO FONDO */
 .titulo-bienvenida {
-  margin: 15px 0 5px 0;
-  font-size: 36px;
-  font-weight: 800;
-  color: #1e3a8a;
+  margin: 20px 0 8px 0;
+  font-size: 42px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.5px;
 }
 
 .subtitulo-bienvenida {
-  font-size: 14px;
-  color: #475569;
-  line-height: 1.5;
-  margin: 0 0 25px 0;
+  font-size: 14.5px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin: 0 0 30px 0;
 }
 
-/* BOTONES RESPONSIVOS */
+/* CONTENEDOR PARA HACER LOS BOTONES MÁS CORTOS Y COMPACTOS */
+.zona-botones-contenedor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
 .botones-bienvenida {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 20px;
+  flex-direction: row; /* Los posiciona uno al lado del otro */
+  gap: 15px;
+  width: 100%;
+  max-width: 360px; /* Acorta el ancho del bloque de botones para que no abarquen todo */
 }
 
 .btn-inicial {
+  flex: 1; /* Hace que ambos botones tengan exactamente el mismo ancho */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px;
+  padding: 12px 20px;
   border-radius: 8px;
-  font-size: 14.5px;
-  font-weight: 750;
+  font-size: 14px;
+  font-weight: 700;
   text-decoration: none;
   cursor: pointer;
   border: none;
-  transition: background-color 0.2s, transform 0.1s;
-  width: 100%;
+  transition: all 0.2s ease;
   box-sizing: border-box;
 }
 
-.btn-inicial:active { transform: scale(0.98); }
+.btn-inicial:active { transform: scale(0.97); }
 
+/* DISEÑO MINIMALISTA DE LOS BOTONES */
 .btn-donar-urgente {
-  background-color: #dc2626; /* Rojo de urgencia */
+  background-color: #112233; /* El azul marino profundo exacto del fondo de la página */
   color: white;
-  box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(17, 34, 51, 0.3);
 }
-.btn-donar-urgente:hover { background-color: #b91c1c; }
+
+.btn-donar-urgente:hover {
+  background-color: #1a334d; /* Un tono un poco más claro al pasar el ratón */
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 6px 16px rgba(17, 34, 51, 0.4);
+}
 
 .btn-entrar-portal {
-  background-color: #1e3a8a; /* Azul institucional */
+  background-color: rgba(255, 255, 255, 0.12); /* Cristal translúcido sutil */
   color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
 }
-.btn-entrar-portal:hover { background-color: #1d4ed8; }
+
+.btn-entrar-portal:hover {
+  background-color: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
 
 .nota-bienvenida {
   font-size: 11px;
-  color: #94a3b8;
+  color: #64748b;
   margin: 0;
 }
 
-/* AJUSTE MÓVIL CRÍTICO */
+/* DISPOSITIVOS MÓVILES (RESPONSIVO) */
 @media (max-width: 480px) {
-  .contenido-bienvenida { padding: 25px 15px; }
-  .titulo-bienvenida { font-size: 30px; }
-  .btn-inicial { padding: 12px; font-size: 13.5px; }
+  .contenido-bienvenida { padding: 30px 20px; }
+  .titulo-bienvenida { font-size: 32px; }
+  .subtitulo-bienvenida { font-size: 13.5px; }
+  .botones-bienvenida { 
+    flex-direction: column; /* En teléfonos muy angostos se vuelven a apilar para que no se machaquen */
+    gap: 10px;
+  }
+  .btn-inicial { padding: 11px; }
 }
 </style>
