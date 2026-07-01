@@ -34,6 +34,17 @@
 </template>
 
 <script setup>
+import { onMounted, onUnmounted } from 'vue';
+
+onMounted(() => {
+  // Cuando la bienvenida aparece, congelamos el scroll del body
+  document.body.style.overflow = 'hidden';
+});
+
+onUnmounted(() => {
+  // Cuando la bienvenida desaparece (al dar clic en entrar), devolvemos el scroll
+  document.body.style.overflow = 'auto';
+});
 // Definimos el evento para avisarle a App.vue que el usuario presionó entrar
 const emit = defineEmits(['entrar'])
 
