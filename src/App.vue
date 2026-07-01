@@ -132,7 +132,7 @@
             <div v-for="funda in recursos.fundaciones" :key="funda.id" class="item-medico border-funda">
               <div class="medico-header">
                 <strong>🏛️ {{ funda.nombre }}</strong>
-                <a :target="_blank" :href="funda.enlace" class="link-externo">Donar ➡️</a>
+                <a :href="funda.enlace" target="_blank" rel="noopener noreferrer" class="link-externo">Donar ➡️</a>
               </div>
               <p class="desc-funda">{{ funda.descripcion }}</p>
             </div>
@@ -147,7 +147,7 @@
             <div v-for="plat in recursos.plataformas" :key="plat.id" class="item-medico border-plat">
               <div class="medico-header">
                 <strong>💻 {{ plat.titulo }}</strong>
-                <a :target="_blank" :href="plat.enlace" class="link-externo">Ir al Portal ➡️</a>
+                <a :href="plat.enlace" target="_blank"  class="link-externo">Ir al Portal ➡️</a>
               </div>
               <div class="autor-plat">Desarrollado por: {{ plat.autor }}</div>
               <p class="desc-funda">{{ plat.descripcion }}</p>
