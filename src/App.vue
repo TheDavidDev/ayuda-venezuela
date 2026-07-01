@@ -19,15 +19,15 @@
       <!-- Columna Lateral Izquierda: Contactos Clave y Centros de Acopio -->
       <aside class="columna-lateral">
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
-<div class="tarjeta alerta-starlink">
-  <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
-  <p class="alerta-texto">Hay un punto <strong>Starlink</strong> activo moviéndose por la zona de desastre:</p>
-  <div class="datos-conexion">
-    <p><strong>Red/Usuario:</strong> <span class="codigo-red">Ja2402</span></p>
-    <p><strong>Contraseña:</strong> <span class="codigo-red">12345678</span></p>
-  </div>
-  <p class="referencia-movil">🛻 <strong>Ubicación:</strong> Lo carga una camioneta negra. El equipo Starlink está montado sobre el capó.</p>
-</div>
+          <div class="tarjeta alerta-starlink">
+            <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
+            <p class="alerta-texto">Hay un punto <strong>Starlink</strong> activo moviéndose por la zona de desastre:</p>
+            <div class="datos-conexion">
+              <p><strong>Red/Usuario:</strong> <span class="codigo-red">Ja2402</span></p>
+              <p><strong>Contraseña:</strong> <span class="codigo-red">12345678</span></p>
+            </div>
+            <p class="referencia-movil">🛻 <strong>Ubicación:</strong> Lo carga una camioneta negra. El equipo Starlink está montado sobre el capó.</p>
+          </div>
 
         <!-- Contactos Directos -->
         <div class="tarjeta">
@@ -156,7 +156,7 @@
         </div>
 
       </main>
-    </div>
+    </div> <!--Cerrar div contenido-->
 
     <!-- Pie de Página Centralizado -->
     <footer class="footer-sitio">
@@ -167,7 +167,7 @@
         <p>© 2026 plasist.org - Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
       </div>
     </footer>
-  </div>
+  </div> <!--Div cerrar pagina -->
 </template>
 
 <script setup>
