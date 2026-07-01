@@ -30,6 +30,7 @@
         <p class="nota-bienvenida">Somos una plataforma humanitaria creada de manera voluntaria por venezolanos dentro y fuera del país. Nuestra principal labor consiste exclusivamente en organizar y difundir información pública y verificada para ponerla al servicio de quienes la necesiten durante situaciones de emergencia. Toda la información contenida en esta central es de carácter público y voluntario.</p>
     </div>
   </div>
+  </div>
 </template>
 
 <script setup>
