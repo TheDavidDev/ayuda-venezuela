@@ -164,7 +164,7 @@
       <p>Envíanos la información oficial y los canales verificados de soporte a nuestro correo institucional:</p>
       <a href="mailto:Info@plasist.org" class="boton-email">Info@plasist.org</a>
       <div class="footer-nota">
-        <p>© 2026 plasist.org - Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
+        <p>©️ 2026 plasist.org - Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
       </div>
     </footer>
   </div> <!--Div cerrar pagina -->
