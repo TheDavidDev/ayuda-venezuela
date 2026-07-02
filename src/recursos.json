@@ -83,6 +83,12 @@
       "nombre": "Guardianes Vzla",
       "descripcion": "Organización de ciudadanos para proteger a niños y adolescentes en situación de vulnerabilidad.",
       "enlace": "https://www.instagram.com/guardianes.vzla"
+    },
+    {
+      "id": 4,
+      "nombre": "Cocinando por Venezuela",
+      "descripcion": "Somos una fundación que distribuye alimentos, insumos de primera necesidad y material médico al necesitado. Desde la cocina de Chef Campus, en Santa Eduvigis, un grupo de voluntarios decidió actuar.",
+      "enlace": "https://cocinandoporvenezuela.org/#mision"
     }
       ],
   "plataformas": [
