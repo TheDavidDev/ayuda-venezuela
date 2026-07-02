@@ -19,6 +19,7 @@
 <style scoped>
 .boton-ayuda {
   background: #ffffff;
+  text-align: center;
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #e2e8f0;
@@ -43,6 +44,6 @@
 }
 
 .btn-ayuda:hover {
-  background: #b91c1c;
+  background: #f90303;
 }
 </style>
