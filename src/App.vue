@@ -33,7 +33,15 @@
             <p class="referencia-movil">🛻 <strong>Ubicación 3:</strong> Frente a Casa Rusitca pizzeria. Avenida Ibarra, Quinta Galipán, Macuto.</p>
           </div>
 
-        <!-- Contactos Directos -->
+
+
+
+         <!-- PANEL DE SISMOS EN VIV0 -->
+          <div class="tarjeta">
+            <SismosVenezuela />
+          </div>
+
+        <!---- Contactos Directos -->
         <div class="tarjeta">
           <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
           <ul>
@@ -187,6 +195,8 @@ import datosRecursos from './recursos.json'
 import gallery from './gallery.vue'
 // INSERCIÓN QUIRÚRGICA: IMPORTAR COMPONENTE DE BIENVENIDA y VARIABLE DE CONTROL
 import Bienvenida from './Bienvenida.vue'
+
+import SismosVenezuela from './SismosVenezuela.vue'
 
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
