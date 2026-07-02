@@ -33,10 +33,14 @@
         <div class="tarjeta">
           <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
           <ul>
-            <li><strong>Protección Civil:</strong> 0800-7248451</li>
-            <li><strong>Bomberos:</strong> 0212-5417133 & 0212-577-9209911</li> <!-- Corregir esto -->
-            <li><strong>Bomberos USB:</strong> 0412-4038790</li>
-            <li><strong>Cruz Roja:</strong> 0212-5714522</li>
+            <li><strong>Directo de Emergencia(Nacional):</strong>VEN 911</li>
+            <li><strong>Protección Civil(Nacional):</strong>166</li>
+            <li><strong>Bomberos(Nacional):</strong>167</li>
+            <li><strong>Protección Civil(CCS):</strong> 0212-575332</li>
+            <li><strong>Bomberos(CCS):</strong>0212-5454545</li> <!-- Corregir esto -->
+            <li><strong>Bomberos(USB):</strong>0412-4038790</li>
+            <li><strong>Protección Civil(La Guaira):</strong> 0424-2075335</li>
+            <li><strong>Bomberos(La Guaira):</strong>0212-3322165</li>
           </ul>
         </div>
 
