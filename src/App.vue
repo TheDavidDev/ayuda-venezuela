@@ -27,10 +27,12 @@
             </div>
             <!-- ubicaciones -->
             <p class="referencia-movil">🛻 <strong>Ubicación 1:</strong> Estacion de servicio PDV Tanaguarenas, antigua parada de bus para Naiguata, Caraballeda.</p>
-
             <p class="referencia-movil">🛻 <strong>Ubicación 2:</strong> Estación de Servicio Texaco, frente a Costa del Sol, Caraballeda.</p>
-
             <p class="referencia-movil">🛻 <strong>Ubicación 3:</strong> Frente a Casa Rusitca pizzeria. Avenida Ibarra, Quinta Galipán, Macuto.</p>
+          </div>
+        <!-- Boton Ayuda -->
+          <div class="tarjeta">
+            <BotonAyuda />
           </div>
 
 
@@ -58,7 +60,7 @@
 
 <!-- NUEVA TARJETA CHATS DE WHATSAPP VECINDARIOS LA GUAIRA -->
 <div class="tarjeta">
-  <h2 class="titulo-seccion borde-azul">🏢 Chats de WhatsApp de Vecinos (La Guaira)</h2>
+  <h2 class="titulo-seccion borde-azul">🏢 Chats de WhatsApp de Vecinos (Litoral)</h2>
   <p class="instrucciones">Grupos directos por residencias para coordinación local y búsqueda de familiares:</p>
   <div class="lista-chats-whatsapp">
     <div v-for="grupo in recursos.gruposWhatsapp" :key="grupo.id" class="item-chat-vecinal">
@@ -144,12 +146,12 @@
         <!-- Bloque 4: Canales de Donación Seguros -->
         <div class="tarjeta">
           <h2 class="titulo-seccion borde-amarillo">🤝 Donaciones y Fundaciones Verificadas</h2>
-          <p class="instrucciones">Enlaces directos a portales institucionales serios para canalizar aportes económicos de forma transparente [12:49]:</p>
+          <p class="instrucciones">Enlaces directos a portales institucionales serios para canalizar aportes económicos de forma transparente:</p>
           <div class="lista-medicos">
             <div v-for="funda in recursos.fundaciones" :key="funda.id" class="item-medico border-funda">
               <div class="medico-header">
                 <strong>🏛️ {{ funda.nombre }}</strong>
-                <a :href="funda.enlace" target="_blank" rel="noopener noreferrer" class="link-externo">Donar ➡️</a>
+                <a :href="funda.enlace" target="_blank" rel="noopener noreferrer" class="link-externo">Visitar ➡️</a>
               </div>
               <p class="desc-funda">{{ funda.descripcion }}</p>
             </div>
@@ -164,7 +166,7 @@
             <div v-for="plat in recursos.plataformas" :key="plat.id" class="item-medico border-plat">
               <div class="medico-header">
                 <strong>💻 {{ plat.titulo }}</strong>
-                <a :href="plat.enlace" target="_blank"  class="link-externo">Ir al Portal ➡️</a>
+                <a :href="plat.enlace" target="_blank"  class="link-externo">Visitar ➡️</a>
               </div>
               <div class="autor-plat">Desarrollado por: {{ plat.autor }}</div>
               <p class="desc-funda">{{ plat.descripcion }}</p>
@@ -194,6 +196,7 @@ import centrosAcopio from './acopio.json'
 import datosRecursos from './recursos.json'
 import gallery from './gallery.vue'
 // INSERCIÓN QUIRÚRGICA: IMPORTAR COMPONENTE DE BIENVENIDA y VARIABLE DE CONTROL
+import BotonAyuda from './BotonAyuda.vue'
 import Bienvenida from './Bienvenida.vue'
 
 import SismosVenezuela from './SismosVenezuela.vue'
