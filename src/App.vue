@@ -21,26 +21,28 @@
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
             <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
-            <p class="alerta-texto">Hay un punto <strong>Starlink</strong> activo moviéndose por la zona de desastre:</p>
+            <p class="alerta-texto">Existen actualmentevarios puntos de<strong>conexión inmediata</strong>y activa en algunas zonas del litoral:</p>
             <div class="datos-conexion">
-              <p><strong>Red/Usuario:</strong> <span class="codigo-red">Ja2402</span></p>
-              <p><strong>Contraseña:</strong> <span class="codigo-red">12345678</span></p>
+              <p><strong>Contraseña:</strong> <span class="codigo-red">Sin contraseñas</span></p>
             </div>
-            <p class="referencia-movil">🛻 <strong>Ubicación:</strong> Lo carga una camioneta negra. El equipo Starlink está montado sobre el capó.</p>
+            <!-- ubicaciones -->
+            <p class="referencia-movil">🛻 <strong>Ubicación 1:</strong>Estacion de servicio PDV Tanaguarenas, antigua parada de bus para Naiguata, Caraballeda.</p>
+            <p class="referencia-movil">🛻 <strong>Ubicación 2:</strong>Estación de Servicio Texaco, frente a Costa del Sol, Caraballeda.</p>
+            <p class="referencia-movil">🛻 <strong>Ubicación 3:</strong>Frente a Casa Rusitca pizzeria. Avenida Ibarra, Quinta Galipán, Macuto.</p>
           </div>
 
         <!-- Contactos Directos -->
         <div class="tarjeta">
           <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
           <ul>
-            <li><strong>Directo de Emergencia(Nacional):</strong>VEN 911</li>
+            <li><strong>Dir. Emergencias(Nacional):</strong>VEN 911</li>
             <li><strong>Protección Civil(Nacional):</strong>166</li>
             <li><strong>Bomberos(Nacional):</strong>167</li>
-            <li><strong>Protección Civil(CCS):</strong> 0212-575332</li>
-            <li><strong>Bomberos(CCS):</strong>0212-5454545</li> <!-- Corregir esto -->
-            <li><strong>Bomberos(USB):</strong>0412-4038790</li>
-            <li><strong>Protección Civil(La Guaira):</strong> 0424-2075335</li>
-            <li><strong>Bomberos(La Guaira):</strong>0212-3322165</li>
+            <li><strong>Protección Civil(Capital):</strong> 0212-575332</li>
+            <li><strong>Bomberos(Capital):</strong>0212-5454545</li> <!-- Corregir esto -->
+            <li><strong>Bomberos(U.S.B.):</strong>0412-4038790</li>
+            <li><strong>Protección Civil(Litoral):</strong> 0424-2075335</li>
+            <li><strong>Bomberos(Litoral):</strong>0212-3322165</li>
           </ul>
         </div>
 
