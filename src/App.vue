@@ -21,14 +21,16 @@
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
             <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
-            <p class="alerta-texto">Existen actualmentevarios puntos de<strong>conexión inmediata</strong>y activa en algunas zonas del litoral:</p>
+            <p class="alerta-texto">Existen actualmente varios puntos de <strong>conexión inmediata</strong> y activa en las siguienteszonas del litoral:</p>
             <div class="datos-conexion">
               <p><strong>Contraseña:</strong> <span class="codigo-red">Sin contraseñas</span></p>
             </div>
             <!-- ubicaciones -->
-            <p class="referencia-movil">🛻 <strong>Ubicación 1:</strong>Estacion de servicio PDV Tanaguarenas, antigua parada de bus para Naiguata, Caraballeda.</p>
-            <p class="referencia-movil">🛻 <strong>Ubicación 2:</strong>Estación de Servicio Texaco, frente a Costa del Sol, Caraballeda.</p>
-            <p class="referencia-movil">🛻 <strong>Ubicación 3:</strong>Frente a Casa Rusitca pizzeria. Avenida Ibarra, Quinta Galipán, Macuto.</p>
+            <p class="referencia-movil">🛻 <strong>Ubicación 1:</strong> Estacion de servicio PDV Tanaguarenas, antigua parada de bus para Naiguata, Caraballeda.</p>
+
+            <p class="referencia-movil">🛻 <strong>Ubicación 2:</strong> Estación de Servicio Texaco, frente a Costa del Sol, Caraballeda.</p>
+
+            <p class="referencia-movil">🛻 <strong>Ubicación 3:</strong> Frente a Casa Rusitca pizzeria. Avenida Ibarra, Quinta Galipán, Macuto.</p>
           </div>
 
         <!-- Contactos Directos -->
